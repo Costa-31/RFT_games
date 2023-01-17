@@ -26,6 +26,10 @@
 - Webfelület: Bodó Zoltán
 - Játékok: Kázmér László, Sidlovszki Dominik
 
+## 3. Üzleti folyamatok modellje
+
+![](./Img/Uzleti_folyamatok_modellje.png)
+
 ## 4. Követelmények
 
 ###Funkcionális követelmények:
