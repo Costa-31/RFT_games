@@ -221,3 +221,28 @@
             LShape: [[-1, -1], [0, -1], [0, 0], [0, 1]],
             JShape: [[1, -1], [0, -1], [0, 0], [0, 1]]
         };
+
+        function getRandomShape() {
+            var keys = Object.keys(Shapes);
+            var ord = Math.floor(Math.random() * keys.length);
+            var shape = Shapes[keys[ord]];
+            return new Shape(shape, ord);
+        }
+
+        Shape.prototype.reset = function () {
+            this.pos = new Array(4);
+            for (var i = 0; i < this.pos.length; i++) {
+                this.pos[i] = this.shape[i].slice();
+            }
+            return this.pos;
+        }
+
+        function selectShape() {
+            fallingShapeRow = 1;
+            fallingShapeCol = 5;
+            fallingShape = nextShape;
+            nextShape = getRandomShape();
+            if (fallingShape != null) {
+                fallingShape.reset();
+            }
+        }
