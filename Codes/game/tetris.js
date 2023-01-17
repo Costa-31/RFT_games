@@ -164,17 +164,6 @@
             selectShape();
         }
 
-        function shapeHasLanded() {
-            addShape(fallingShape);
-            if (fallingShapeRow < 2) {
-                scoreboard.setGameOver();
-                scoreboard.setTopscore();
-            } else {
-                scoreboard.addLines(removeLines());
-            }
-            selectShape();
-        }
-
         function removeLines() {
             var count = 0;
             for (var r = 0; r < nRows - 1; r++) {
@@ -246,7 +235,6 @@
                 fallingShape.reset();
             }
         }
-
 
         function Scoreboard() {
             this.MAXLEVEL = 9;
@@ -344,6 +332,18 @@
 
             this.getScore = function () {
                 return score;
+            }
+        }
+
+        function draw() {
+            g.clearRect(0, 0, canvas.width, canvas.height);
+
+            drawUI();
+
+            if (scoreboard.isGameOver()) {
+                drawStartScreen();
+            } else {
+                drawFallingShape();
             }
         }
 
