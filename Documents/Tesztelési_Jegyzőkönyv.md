@@ -91,3 +91,33 @@ A próbatelepítés a megrendelő által választott webtárhelyen történik, a
 A tesztelési feladat a következő teszt-eseteket foglalja magában:
 - Fejlesztői teszt
 - Prototípus (modul)
+
+## 4 Tesztelési ütemterv, függőségek – tesztforgatókönyv
+
+### 4.1 Tesztelési jelentés
+A tesztelési jelentést a tesztkoordinátor készíti el. Ez egy részletes áttekintése a lefutott teszteknek, azok eredményeinek, státuszának és a megjegyzéseknek.
+A tesztkoordinátor juttatja el a projektmenedzsernek a tesztelési jelentést. 
+
+## 5. Tesztjegyzőkönyv
+### 5.1 Tesztelési jegyzőkönyv - 1. Példa
+
+|   |   |
+|---|---|
+| A teszt-eset leírás és célja:  | Weboldal megjelenítés |
+| A tesztelt folyamat/funkció leírása:  | Design, Navigation |
+| A tesztelés előfeltételei:  | - |
+| A tesztelés dátuma és időpontja:  | 2022.12.18. |
+| A tesztet végző személy(ek):  | Bodó Zoltán |
+| A tesztelt rendszer beállításai:  |Html, CSS, JavaScript|
+| A teszt-eset elvárt eredménye:  | Hibátlan megjelenítés |
+| A tesztelés eredménye:  | Sikeres |
+| Megjegyzések:  | További fejlesztésre szorul |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: | Bodó Zoltán |
+|  Szervezeti egység/ beosztás: | fejlesztő |
+|  Dátum: | 2022.12.18. |
+
