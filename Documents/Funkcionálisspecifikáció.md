@@ -27,6 +27,20 @@ Ezért arra jutottunk, én és a munkatársaim, hogy egy ingyenes, alkalmi ját�
 
 Az oldalt azért hozzuk létre, hogy a Tetrist kedvelő emberek szabadidejükben tudjanak játszani egy egyszerű és könnyen kezelhető oldalon a játékkal. A könnyű kezelhetőségnek köszönhetően, percek alatt már a játék felülületén tudunk lenni.
 
+## 7. Használati esetek 
+
+A Játékos az alábbi tevékenységeket végezheti a "Tetrisz játékban":
+
+-Elindíthatja a játékot, azután tudja irányítani az elemeket a játékban.
+
+A Játékos az alábbi tevékenységeket végezheti a "Snake játékban":
+
+-Elindíthatja a játékot, azután tudja irányítani a kígyót a játékban és fel tudja venni az elemeket.
+
+A Játékos az alábbi tevékenységeket végezheti a "Breakout játékban":
+
+-Elindíthatja a játékot, azután tudja irányítani az elemet a játékban.
+
 ## 8. Képernyő tervek
 
 Fontosabb képernyők:
