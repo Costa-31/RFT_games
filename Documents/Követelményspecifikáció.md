@@ -57,3 +57,11 @@ A Felhasználási Feltételek és az Oldal működésének a módosítására, a
 ### Felelősségi szabályok
 
 Az új Ptk. a kártérítési felelősség szabályozása körében több ponton igen lényeges változtatásokat vezet be. A legjelentősebb változás a szerződésen kívüli (deliktuális) károkozásért és a szerződésszegéssel (kontraktuális) okozott károkért való felelősség egymástól való elszakítása, a két felelősség egymástól független szabályozása. A különválasztás lényege abban áll, hogy míg a szerződésszegésért való felelősség esetén szakít a régi Ptk. felróhatósági alapú felelősségi rendszerével, addig a szerződésen kívül okozott károkért való felelősség továbbra is a károkozó felróhatóságán alapul. A kontraktuális felelősség két ponton tér el a deliktuálistól: a szigorúbb kimentés [6:142. §] és a megtérítendő károk köre [6:143. §] vonatkozásában. Ezeken kívül viszont a 6:144. §-ában írt utaló szabállyal az új Ptk. is megtartja a kártérítési felelősségi jog egységét, mert az abban írtak szerint a kontraktuális felelősségre is alkalmazni rendeli a deliktuális felelősség szabályait.
+
+### Technikai követelmények
+
+Az Oldal használatához szükséges technikai feltételek: Android operációs rendszer 4.0.3, vagy későbbi verziójával ellátott mobiltelefon, vagy tablet, vagy iOS operációs rendszer 9.0, vagy későbbi verziójával ellátott mobiltelefon,vagy tablet, vagy egy asztali számítógép ami Windows 7, vagy későbbi verziójával rendelkezik, valamint a használathoz megfelelő sávszélességű internetelérés. A technikai feltételeket az Oldal megnyitásához és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Fejlesztők nem vonható felelősségre. Ugyanígy nem vonhatók felelősségre a Fejlesztők az Oldal használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. A Fejlesztők kizárnak minden kártérítési felelősséget az Oldalhoz csatlakozó minden külső szerver által nyújtott, vagy megjelenített adattal, információval kapcsolatban is.
+
+Az Oldal bizonyos funkciói csak regisztrációt követően vehetők használatba. A megjelenítés kizárólag a Google Chrome, Safari, Opera, Microsoft Edge felületén keresztül támogatott.
+
+Amennyiben más készüléken szándékozik megnyitni az oldalt az új eszközön nem igényel újabb regisztrációt és a korábbi, programban tárolt információk is elérhetőek maradnak bejelentkezést követően.
