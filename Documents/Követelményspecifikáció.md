@@ -65,3 +65,55 @@ Az Oldal használatához szükséges technikai feltételek: Android operációs 
 Az Oldal bizonyos funkciói csak regisztrációt követően vehetők használatba. A megjelenítés kizárólag a Google Chrome, Safari, Opera, Microsoft Edge felületén keresztül támogatott.
 
 Amennyiben más készüléken szándékozik megnyitni az oldalt az új eszközön nem igényel újabb regisztrációt és a korábbi, programban tárolt információk is elérhetőek maradnak bejelentkezést követően.
+
+### Garancia és kártérítés 
+
+Az Oldal használatához a felhasználói oldalon szükséges – fent meghatározott, vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie. Ezen technikai feltételek nem teljesüléséért az Intézményvezető nem vonható felelősségre. Ugyanígy nem vonható felelősségre az Intézményvezető az Oldal használatából adódóan a készüléken bekövetkező adatvesztésért, meghibásodásért. Az Intézményvezető kizár minden kártérítési felelősséget az Oldalhoz csatlakozó minden külső szoftver által nyújtott (így kiemelten az adatok átvétele) vagy megjelenített adattal, információval kapcsolatban. Az Intézményvezető nem vállal garanciát az Oldal megszakításmentes működéséért, valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért az Intézményvezető szintén nem tartozik kártérítési felelősséggel.
+
+### Egyéb rendelkezések
+
+Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos jogszabályok – különösen, de nem kizárólagosan a Polgári Törvénykönyvről szóló 2013. évi V. törvény, az Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679. Rendelete a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről, az információs önrendelkezési jogról és az információ szabadságról szóló 2011. évi CXII. törvény, a szerzői jogról szóló 1999. évi LXXVI. törvény, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény – rendelkezései az irányadóak.
+
+### Követelménylista 
+
+|   Modul   | ID |  Név   |  Verzió  |
+|-----------|----|--------|----------|
+|Jogosultság| K1 | Bejelentkezés|1.0|
+|Jogosultság| K2 | Regisztráció|1.0|
+|Jogosultság| K3 | Jogosultsági szintek|1.0|
+|Modifikáció| K4 | Elfelejtett felhasználónév/jelszó|1.0|
+|Felület| K5 | Scoreboard|1.0|
+|Felület| K6 | Játék|1.0|
+|Felület| K7 | Kontakt|1.0|
+|Felület| K8 | User felület|1.0|
+|Adatbázis| K9 | Adatbázis rendszer|1.0|
+|Szerver| K10 | Szerver rendszer|1.0|
+
+### Kapcsolat
+
+Az Oldal támogatását az Üzemeltető végzi munkanapokon, 8:00 és 16:00 között. Az Oldal működésével kapcsolatban a Felhasználó a RFT_Tetris@gmail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol. Forduljon hozzánk teljes bizalommal.
+
+### Kifejtés 
+
+#### ID
+
+- K1  A felhasználó a "Bejelentkezés" gombbal be tud jelentkezni a megadott felhasználónév és jelszó párossal. Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, azt tudatja velünk a rendszer.
+
+- K2  A "Regisztráció" gombra kattintva a felhasználó megadhatja az oldal használatához szükséges adatokat: "Felhasználó" mezőbe egy egyedi felhasználónevet; "e-mail" mezőbe a saját érvényes e-mail címét; "Jelszó" mezőbe egy egyedi kulcsszót, amit harmadik személynek semmiféleképpen nem adhatunk ki.
+Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, azt tudatja velünk a rendszer.
+
+- K3  Felhasználói-Rendszerhozzáférés, elmentésre kerül az elért legmagasabb pontszáma, látható más játékosok számára.
+
+- K4 Ha a felhasználó elfelejtette a felhasználónevét vagy jelszavát, akkor ezzel az opcióval egy Adminhoz tud fordulni e-mail címen keresztül.
+
+- K5 Egy lista a pontokról (legmagasabb pontszám).
+
+- K6 A felhasználónak lehetősége van a játékot elkezdeni a megveleő gombra kattintva.
+
+- K7 Ez egy információs felület, amin keresztül a felhasználók hozzáférhetnek az oldalt szerkeztő csapattagok nevéhez.
+
+- K8 Ez egy felület az user fiókkal rendelkező felhasználók számára. Tartalmazza az elért pontszámokat.
+
+- K9 Adatbázis kapcsolat megtervezése és létrehozása.
+
+- K10 Szerveroldal megtervezése, adatbázis - felhasználó közötti kommunikáció megvalósítása, autentikáció. 
