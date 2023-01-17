@@ -81,3 +81,7 @@ A weblap működése során a játékos tud szabadon illete bejelentkezve játsz
 
 - User adatait tároló tábla
 - User ponszámait táróló tábla
+
+## 10. Implementációs terv
+
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
