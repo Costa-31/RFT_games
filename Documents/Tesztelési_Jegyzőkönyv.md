@@ -138,3 +138,20 @@ A tesztkoordinátor juttatja el a projektmenedzsernek a tesztelési jelentést.
 |  Szervezeti egység/ beosztás: | fejlesztők |
 |  Dátum: | 2023.1.8. |
 
+### 5.3 Jóváhagyások
+
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | Játékok kifejlesztése |
+| A tesztelt folyamatok/funkciók/modulok leírása: | JavaScript |
+| A tesztadatok típusa:  | JavaScript |
+| A tesztelés eredménye:  | Sikeres |
+| Megjegyzések:  | Működőképes weblap |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: | Kázmér László, Sidlovszki Dominik, Bodó Zoltán |
+|  Szervezeti egység/ beosztás: | fejlesztők |
+|  Dátum: | 2023.1.17. |
