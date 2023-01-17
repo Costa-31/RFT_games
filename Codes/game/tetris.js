@@ -199,3 +199,25 @@
                     grid[r][c] = grid[r - 1][c];
             }
         }
+
+        function addShape(s) {
+            s.pos.forEach(function (p) {
+                grid[fallingShapeRow + p[1]][fallingShapeCol + p[0]] = s.ordinal;
+            });
+        }
+
+        function Shape(shape, o) {
+            this.shape = shape;
+            this.pos = this.reset();
+            this.ordinal = o;
+        }
+
+        var Shapes = {
+            ZShape: [[0, -1], [0, 0], [-1, 0], [-1, 1]],
+            SShape: [[0, -1], [0, 0], [1, 0], [1, 1]],
+            IShape: [[0, -1], [0, 0], [0, 1], [0, 2]],
+            TShape: [[-1, 0], [0, 0], [1, 0], [0, 1]],
+            Square: [[0, 0], [1, 0], [0, 1], [1, 1]],
+            LShape: [[-1, -1], [0, -1], [0, 0], [0, 1]],
+            JShape: [[1, -1], [0, -1], [0, 0], [0, 1]]
+        };
