@@ -38,3 +38,23 @@
 	- A programnak egyszerűnek kell lennie , ezért a teljesítménye sem lehet nagy
 
 A rendszer fejlesztése HTML/CSS valamint JavaScript és php segítségével történik. A weblap felépítése, valamint dizájnolása a HTML/CSS nyelv implementálásával valósítandó meg. A weboldal használatához egy egyszerű böngészőre van szükség.
+
+## 5. Funkcionális terv
+
+Rendszerszereplők:
+- Játékos
+
+Rendszerhasználati esetek és lefutásaik:
+
+- Játékos:
+	- Regisztráció az oldalra
+	- A játékban való részvétel
+
+Menü-hierarchiák:
+
+- Home
+	- Bejelentkezés
+	- Regisztráció
+	- Tetris
+	- Kontakt
+
