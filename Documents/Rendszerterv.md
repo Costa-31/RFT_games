@@ -58,3 +58,13 @@ Menü-hierarchiák:
 	- Tetris
 	- Kontakt
 
+## 6. Fizikai környezet
+
+Az alkalmazás webes platformra készül. Van tűzfal a hálózaton és engedélyezi a 80-as (HTTP) és a 443-as (HTTPS) portokat. Nincsenek megvásárolt komponenseink. Fejlesztői eszközök:
+
+- Notepad ++
+- Visual Studio Code / Visual Studio 
+- WAMP / XAMPP server
+- Trello / Felhő alapú adatbázis kezelő rendszer MySQL Workbench-el összecsatlakoztatva
+- git
+
