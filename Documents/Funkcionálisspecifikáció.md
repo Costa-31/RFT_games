@@ -11,6 +11,10 @@ A megrendelő egy egyszerű és könnyen kezelhető alkalmazást szeretne,ahol a
 
 A fejlesztőcsapat célja egy valósággal megegyező oldal létrehozása, melyben több játékkal tudunk játszani. A felhasználó könnyen tudja váltogatni a játékokat és könnyű a játék kezelhetősége.
 
+## 4. Feltételek
+
+Az alkalmazásunk létrehozásának alapfeltétele, a JavaScript, vagy valamilyen más webprogramozási nyelv. HTML-ben írjuk meg az oldal leíró részét, és ezzel szabványosítjuk azt. CSS-el adunk az oldalunknak külsőt, amivel igényesen, dizájnosan és modernek fog kinézni.
+
 ## 8. Képernyő tervek
 
 Fontosabb képernyők:
