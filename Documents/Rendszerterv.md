@@ -72,3 +72,7 @@ Az alkalmazás webes platformra készül. Van tűzfal a hálózaton és engedél
 
 A weblap működése során a játékos tud szabadon illete bejelentkezve játszani. A pontjai bejelentkezés esetén el lesznek tárolva
 
+## 8. Architekturális terv
+
+- Backend: A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A kliensekkel JSON objektumokkal kommunikál.
+- Frontend: Az alkalmazás HTML-ben, CSS-ben és JavaScript-ben készül.
