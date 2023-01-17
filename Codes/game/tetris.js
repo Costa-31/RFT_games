@@ -459,3 +459,34 @@
                 }
             }
         }
+
+        function startNewGame() {
+            initGrid();
+            selectShape();
+            scoreboard.reset();
+            animate(-1);
+        }
+
+        function initGrid() {
+            function fill(arr, value) {
+                for (var i = 0; i < arr.length; i++) {
+                    arr[i] = value;
+                }
+            }
+            for (var r = 0; r < nRows; r++) {
+                grid[r] = new Array(nCols);
+                fill(grid[r], EMPTY);
+                for (var c = 0; c < nCols; c++) {
+                    if (c === 0 || c === nCols - 1 || r === nRows - 1)
+                        grid[r][c] = BORDER;
+                }
+            }
+        }
+
+        function init() {
+            initGrid();
+            selectShape();
+            draw();
+        }
+
+        init();
