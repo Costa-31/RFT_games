@@ -68,3 +68,7 @@ Az alkalmazás webes platformra készül. Van tűzfal a hálózaton és engedél
 - Trello / Felhő alapú adatbázis kezelő rendszer MySQL Workbench-el összecsatlakoztatva
 - git
 
+## 7. Absztrakt domain modell
+
+A weblap működése során a játékos tud szabadon illete bejelentkezve játszani. A pontjai bejelentkezés esetén el lesznek tárolva
+
