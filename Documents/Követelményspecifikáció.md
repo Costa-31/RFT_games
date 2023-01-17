@@ -19,3 +19,7 @@ Jelenleg free-to-use alapon működik maga a Tetris alkalmazás, és a további 
 ### Vágyálom rendszer 
 
 A projekt célja egy olyan weboldal létrehozása, ahol a retro élményeket lehet feleleveníteni. A cél egy könnyen átlátható és felhasználóbarát játékgép szimulátoros oldal létrehozása, a modernebb modulokkal kiegészítve, ahol a felhasználók a regisztráció után be tudnak lépni a saját fiókjukba, amivel azt érjük el, hogy minden felhasználónak külön meglegyen az egyéni rekordja. A játékot mindenki használhatja, de csak a regisztrált játékosok pontjai lesznek elmentve.
+
+### Funkcionális követelmények 
+
+A felhasználót az oldal betöltése után, a "home" oldal fogajda majd, ahonnan tud navigálni kedve szerint. Van külön regisztrációs és "login" ablak, ami garantálja majd a játék során szerzett pont elmentését. Továbbá megtalálható maga a játék amely egy új oldalra navigálja a felhasználót, ahol elkezdheti a játékot. Ezeken kívül megtalálható két további ablak, amelyek a kontakt és a "scoreboard". A kontakt ablaknál a fejlesztőket találják míg a "scoreboard" ablaknál a legjobb eredményt kilistázva.
