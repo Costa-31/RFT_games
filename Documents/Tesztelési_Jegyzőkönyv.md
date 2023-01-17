@@ -19,3 +19,14 @@
 ## 1. Bevezetés
 
 A tesztelés célja a projektben megtalálható felépítésbeli, vagy formatervezési hibák feltárása.
+
+### 1.1 Tesztelési terv hatóköre, célja:
+
+A tesztelési terv célja a tesztelés teljeskörűségének biztosítása, a tesztelés során alkalmazott eljárások és megoldások meghatározása.
+
+### 1.2 Elvárások
+
+#### A teszttervvel szemben felállított alap elvárások:
+
+- Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
+- A projektcsapat felelős a tesztadatok előállításáért.
