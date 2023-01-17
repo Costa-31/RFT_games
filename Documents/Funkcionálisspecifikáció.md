@@ -46,13 +46,11 @@ A Játékos az alábbi tevékenységeket végezheti a "Breakout játékban":
 Fontosabb képernyők:
 
 -részlet a "Tetrisz" játékból
-![](https://github.com/Costa-31/RFT_games/Img/tetris.png)
+![](./Img/tetris.png)
 
 -részlet a "Snake" játékból
-![](img/adatbazis.jpg)
 
 -részlet a "Breakout" játékból
-![](img/adatbazis.jpg)
 
 ## 9. Forgatókönyvek
 
