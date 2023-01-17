@@ -9,7 +9,7 @@ Alapvetően az online játékok a társadalom egy széles körét érinti és é
 Fontosabb képernyők:
 
 -részlet a "Tetrisz" játékból
-![](img/tetris.png)
+![](https://github.com/Costa-31/RFT_games/Img/tetris.png)
 
 -részlet a "Snake" játékból
 ![](img/adatbazis.jpg)
