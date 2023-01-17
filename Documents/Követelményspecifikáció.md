@@ -14,4 +14,8 @@ A megrendelő szeretné, ha maga a játék nem csak az adott felhasználónál, 
 
 ### Igényelt üzleti folyamatok 
 
-Jelenleg free-to-use alapon működik maga a Tetris alkalmazás, amely mindenki számára elérhető. Ez azonban jelenlegi formályában, idővel egyhangúvá válik, és a megrendelő úgy véli, hogy a versenyhelyzet megteremtésével a felhasználók köre kibővül, és látogatottabb lesz a weboldal. Regisztráció bevezetésével, ezt létre tudjuk hozni, és esetleg későbbi felmerülő gondolatokat is meg tudunk majd ezáltal valósítani.
+Jelenleg free-to-use alapon működik maga a Tetris alkalmazás, és a további játékok, amelyk mindenki számára elérhető. Ez azonban jelenlegi formályában, idővel egyhangúvá válik, és a megrendelő úgy véli, hogy a versenyhelyzet megteremtésével a felhasználók köre kibővül, és látogatottabb lesz a weboldal. Regisztráció bevezetésével, ezt létre tudjuk hozni, és esetleg későbbi felmerülő gondolatokat is meg tudunk majd ezáltal valósítani.
+
+### Vágyálom rendszer 
+
+A projekt célja egy olyan weboldal létrehozása, ahol a retro élményeket lehet feleleveníteni. A cél egy könnyen átlátható és felhasználóbarát játékgép szimulátoros oldal létrehozása, a modernebb modulokkal kiegészítve, ahol a felhasználók a regisztráció után be tudnak lépni a saját fiókjukba, amivel azt érjük el, hogy minden felhasználónak külön meglegyen az egyéni rekordja. A játékot mindenki használhatja, de csak a regisztrált játékosok pontjai lesznek elmentve.
