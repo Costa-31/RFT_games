@@ -139,3 +139,16 @@
                 row[1] = -tmp;
             });
         }
+
+        function move(dir) {
+            fallingShapeRow += dir.y;
+            fallingShapeCol += dir.x;
+        }
+
+        function canMove(s, dir) {
+            return s.pos.every(function (p) {
+                var newCol = fallingShapeCol + dir.x + p[0];
+                var newRow = fallingShapeRow + dir.y + p[1];
+                return grid[newRow][newCol] === EMPTY;
+            });
+        }
