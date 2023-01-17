@@ -53,3 +53,33 @@ Fontosabb képernyők:
 
 -részlet a "Breakout" játékból
 ![](img/adatbazis.jpg)
+
+## 9. Forgatókönyvek
+
+Játékmenet forgatókönyve: "Tetris"
+Szereplők: Webalkalmazás
+
+A space karakter használatával tudjuk elindítani a játékot. A játékot a nyíl billentyűzetek segítségével tudjuk irányítani, valamint a w,a,s,d billentyűkkel.
+
+-Fel nyíl / W: Forgatja az elemeket.
+-Jobb nyíl / A: Mozgatja az elemeket jobbra.
+-Bal nyíl / D: Mozgatja az elemeket balra.
+-Le nyíl / S: Az elemeket azonnal lerakja
+
+Játékmenet forgatókönyve: "Snake"
+Szereplők: Webalkalmazás
+
+A space karakter használatával tudjuk elindítani a játékot. A játékot a nyíl billentyűzetek segítségével tudjuk irányítani, valamint a w,a,s,d billentyűkkel.
+
+-Fel nyíl / W: felfelé mozog.
+-Jobb nyíl / A: Jobbra mozog.
+-Bal nyíl / D: Balra mozog.
+-Le nyíl / S: Lefelé mozog.
+
+Játékmenet forgatókönyve: "Breakout"
+Szereplők: Webalkalmazás
+
+A space karakter használatával tudjuk elindítani a játékot. A játékot a nyíl billentyűzetek segítségével tudjuk irányítani, valamint a a,d billentyűkkel.
+
+-Jobb nyíl / A: Jobbra mozog.
+-Bal nyíl / D: Balra mozog.
