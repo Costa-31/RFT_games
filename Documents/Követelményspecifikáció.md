@@ -65,3 +65,7 @@ Az Oldal használatához szükséges technikai feltételek: Android operációs 
 Az Oldal bizonyos funkciói csak regisztrációt követően vehetők használatba. A megjelenítés kizárólag a Google Chrome, Safari, Opera, Microsoft Edge felületén keresztül támogatott.
 
 Amennyiben más készüléken szándékozik megnyitni az oldalt az új eszközön nem igényel újabb regisztrációt és a korábbi, programban tárolt információk is elérhetőek maradnak bejelentkezést követően.
+
+### Garancia és kártérítés 
+
+Az Oldal használatához a felhasználói oldalon szükséges – fent meghatározott, vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie. Ezen technikai feltételek nem teljesüléséért az Intézményvezető nem vonható felelősségre. Ugyanígy nem vonható felelősségre az Intézményvezető az Oldal használatából adódóan a készüléken bekövetkező adatvesztésért, meghibásodásért. Az Intézményvezető kizár minden kártérítési felelősséget az Oldalhoz csatlakozó minden külső szoftver által nyújtott (így kiemelten az adatok átvétele) vagy megjelenített adattal, információval kapcsolatban. Az Intézményvezető nem vállal garanciát az Oldal megszakításmentes működéséért, valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért az Intézményvezető szintén nem tartozik kártérítési felelősséggel.
