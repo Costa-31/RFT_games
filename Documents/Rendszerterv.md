@@ -28,7 +28,7 @@
 
 ## 3. Üzleti folyamatok modellje
 
-![](./Img/Uzleti_folyamatok_modellje.png)
+![](./Img/Uzleti_folyamatok_modellje.jpg)
 
 ## 4. Követelmények
 
