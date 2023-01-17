@@ -88,3 +88,7 @@ Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos
 |Felület| K8 | User felület|1.0|
 |Adatbázis| K9 | Adatbázis rendszer|1.0|
 |Szerver| K10 | Szerver rendszer|1.0|
+
+### Kapcsolat
+
+Az Oldal támogatását az Üzemeltető végzi munkanapokon, 8:00 és 16:00 között. Az Oldal működésével kapcsolatban a Felhasználó a RFT_Tetris@gmail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol. Forduljon hozzánk teljes bizalommal.
