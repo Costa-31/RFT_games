@@ -25,3 +25,16 @@
 
 - Webfelület: Bodó Zoltán
 - Játékok: Kázmér László, Sidlovszki Dominik
+
+## 4. Követelmények
+
+###Funkcionális követelmények:
+
+- A regisztrált felhasználók tárolása
+	- A felhasználók csoportba szervezése
+	- Webes felületen gördülékeny működés
+- Nem funkcionális követelmények:
+	- Letisztult kinézet
+	- A programnak egyszerűnek kell lennie , ezért a teljesítménye sem lehet nagy
+
+A rendszer fejlesztése HTML/CSS valamint JavaScript és php segítségével történik. A weblap felépítése, valamint dizájnolása a HTML/CSS nyelv implementálásával valósítandó meg. A weboldal használatához egy egyszerű böngészőre van szükség.
