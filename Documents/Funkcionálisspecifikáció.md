@@ -7,6 +7,9 @@ Alapvetően az online játékok a társadalom egy széles körét érinti és é
 ## 2. Jelenlegi helyzet
 
 A megrendelő egy egyszerű és könnyen kezelhető alkalmazást szeretne,ahol a felhasználók több játékkal játszhatnak. Az említett szoftvert a megrendelő webes felületen szeretné használni. Az ügyfél ragaszkodott egy egyszerű és könnyen kezelhető oldalhoz. Az ügyfél ragaszkodott még ahhoz is, hogy az oldal szabványos legyen, és ez mellett még egy modern dizájnt és külsőt is kapjon. Jelenleg a program létrehozásához, elkészítéséhez szükséges adatokat, tevékenységeket discord segítségével, minden héten, hetente többször is egyeztetjük.
+## 3. Vágyálom rendszer
+
+A fejlesztőcsapat célja egy valósággal megegyező oldal létrehozása, melyben több játékkal tudunk játszani. A felhasználó könnyen tudja váltogatni a játékokat és könnyű a játék kezelhetősége.
 
 ## 8. Képernyő tervek
 
