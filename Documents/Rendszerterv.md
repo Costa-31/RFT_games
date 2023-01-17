@@ -85,3 +85,7 @@ A weblap működése során a játékos tud szabadon illete bejelentkezve játsz
 ## 10. Implementációs terv
 
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.
+
+## 11. Tesztterv
+
+A user teszteket a fejlesztés végén végezzük el a funkciók kipróbálásával és dokumentálásával. Konténerizált szerverrel.
