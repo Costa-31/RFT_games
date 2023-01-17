@@ -15,6 +15,14 @@ A fejlesztőcsapat célja egy valósággal megegyező oldal létrehozása, melyb
 
 Az alkalmazásunk létrehozásának alapfeltétele, a JavaScript, vagy valamilyen más webprogramozási nyelv. HTML-ben írjuk meg az oldal leíró részét, és ezzel szabványosítjuk azt. CSS-el adunk az oldalunknak külsőt, amivel igényesen, dizájnosan és modernek fog kinézni.
 
+## 5. Jelenlegi üzleti folyamatok modellje
+
+A mai világban a legtöbb embernek nincs elegendő ideje, hogy egy élvezhető, könnyen kezelhető alakalmi játékkal játsszon, anélkül hogy ki kellene mozdulnia az illető komfortzónájából, bár van rengeteg és még annál is több online felületen elérhető játékokkal foglalkozó weboldal, ezeknek a hátránya, hogy:
+
+- Fizetős játékok
+
+Ezért arra jutottunk, én és a munkatársaim, hogy egy ingyenes, alkalmi játékot szimuláló oldalt hozzunk létre, amely felkelti azon emberek érdeklődését akiket mindig is érdekeltek az internetes játékok.Ezért mi egyszerű játék megalkotására törekszünk, amelyek nem mellesleg ingyenesek, élvezhetőek és még kifinomultak is, ezenfelül pedig a legkevesebb úgynevezett "bug"-al rendelkezők.
+
 ## 8. Képernyő tervek
 
 Fontosabb képernyők:
