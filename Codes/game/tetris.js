@@ -174,3 +174,28 @@
             }
             selectShape();
         }
+
+        function removeLines() {
+            var count = 0;
+            for (var r = 0; r < nRows - 1; r++) {
+                for (var c = 1; c < nCols - 1; c++) {
+                    if (grid[r][c] === EMPTY)
+                        break;
+                    if (c === nCols - 2) {
+                        count++;
+                        removeLine(r);
+                    }
+                }
+            }
+            return count;
+        }
+
+        function removeLine(line) {
+            for (var c = 0; c < nCols; c++)
+                grid[line][c] = EMPTY;
+
+            for (var c = 0; c < nCols; c++) {
+                for (var r = line; r > 0; r--)
+                    grid[r][c] = grid[r - 1][c];
+            }
+        }
