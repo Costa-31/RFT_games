@@ -121,3 +121,20 @@ A tesztkoordinátor juttatja el a projektmenedzsernek a tesztelési jelentést.
 |  Szervezeti egység/ beosztás: | fejlesztő |
 |  Dátum: | 2022.12.18. |
 
+### 5.2 Tesztelési jelentés - 2. Példa
+|   |   |
+|---|---|
+| A hivatkozott tesztjegyzőkönyvek rövid leírása és eredménye:  | Játékok kifejlesztése |
+| A tesztelt folyamatok/funkciók/modulok leírása: | JavaScript |
+| A tesztadatok típusa:  | JavaScript |
+| A tesztelés eredménye:  | Sikertelen |
+| Megjegyzések:  | Korrigálni a sikertelen funkciókat |
+
+**Tesztelést elvégezte**
+
+|   |   |
+|---|---|
+|  Név: | Kázmér László, Sidlovszki Dominik, Bodó Zoltán |
+|  Szervezeti egység/ beosztás: | fejlesztők |
+|  Dátum: | 2023.1.8. |
+
