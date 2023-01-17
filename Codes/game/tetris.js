@@ -106,3 +106,36 @@
             keyDown = false;
             fastDown = false;
         });
+
+        function canRotate(s) {
+            if (s === Shapes.Square)
+                return false;
+
+            var pos = new Array(4);
+            for (var i = 0; i < pos.length; i++) {
+                pos[i] = s.pos[i].slice();
+            }
+
+            pos.forEach(function (row) {
+                var tmp = row[0];
+                row[0] = row[1];
+                row[1] = -tmp;
+            });
+
+            return pos.every(function (p) {
+                var newCol = fallingShapeCol + p[0];
+                var newRow = fallingShapeRow + p[1];
+                return grid[newRow][newCol] === EMPTY;
+            });
+        }
+
+        function rotate(s) {
+            if (s === Shapes.Square)
+                return;
+
+            s.pos.forEach(function (row) {
+                var tmp = row[0];
+                row[0] = row[1];
+                row[1] = -tmp;
+            });
+        }
