@@ -7,3 +7,7 @@ Sokak számára kedvelt, kedves régi emlékeket felidéző weboldalt igyekeztü
 ### Jelenlegi helyzet
 
 Jelenleg egy játék van amiből ki szeretnénk indulni. Ezek a játékok köré, szeretnénk felépíteni egy navigációkkal, funkciókkal ellátott weboldalt, ahol a játékok a főközpontú elemek. Ezt a weboldal HTML, CSS, JavaScript nyelvekkel van ellátva, ami igyekszik a felhasználó számára minél egyszerűbb, mégis lényegretőrő kezelhetőséget biztosít. A weboldalt szeretnénk további funkciókkal kibővíteni.
+
+### Jelenlegi üzelti folyamatok 
+
+A megrendelő szeretné, ha maga a játék nem csak az adott felhasználónál, az adott alkalommal mutatná a legjobb eredményét. Az elképzelés, hogy egy eredménytábla legyen elérhető a felhasnzálók számára, ahol mindenki láthatja, ki tartja a legnagyobb pontszámot, és amennyiben valaki azt eléri, esetleg túllépi, ő vegye át a helyezést. Terveink szerint ezt MySQL adatbázis segítségével, és szerver oldali kommunikációval igyekszünk megvalósítani.
