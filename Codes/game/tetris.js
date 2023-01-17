@@ -152,3 +152,25 @@
                 return grid[newRow][newCol] === EMPTY;
             });
         }
+
+        function shapeHasLanded() {
+            addShape(fallingShape);
+            if (fallingShapeRow < 2) {
+                scoreboard.setGameOver();
+                scoreboard.setTopscore();
+            } else {
+                scoreboard.addLines(removeLines());
+            }
+            selectShape();
+        }
+
+        function shapeHasLanded() {
+            addShape(fallingShape);
+            if (fallingShapeRow < 2) {
+                scoreboard.setGameOver();
+                scoreboard.setTopscore();
+            } else {
+                scoreboard.addLines(removeLines());
+            }
+            selectShape();
+        }
