@@ -30,3 +30,20 @@ A tesztelési terv célja a tesztelés teljeskörűségének biztosítása, a te
 
 - Az olvasó ismeri az alapdokumentumokat, amelyek meghatározzák a rendszert.
 - A projektcsapat felelős a tesztadatok előállításáért.
+
+## 2. Szükséges erőforrások
+Ez a fejezet a teszteléshez szükséges erőforrásokat fejti ki.
+
+### 2.1 Feladatkörök és felelősségek (tesztcsapat meghatározása)
+| Feladatkör  |  Felelősség/tevékenység |  Személy  |
+|---|---|---|
+| **Tesztelő, Teszt-koordinátor:** |  A teszt végrehajtása, észrevételek dokumentálása, teszt dokumentáció archiválása.Tesztterv készítése.  A tesztterv jóváhagyatása a projektmenedzserrel.  A teszt forgatókönyvek létrehozása  inkonzisztenciák kezelése.  Helyes és időbeni hibakezelés.  Szükség esetén problémák delegálása a projekt menedzsernek.  Végső riport készítése.  Teszt dokumentum archiválása.  Az észrevételek státuszának követése, ill. dokumentálása | Bodó Zoltán, Kázmér László, Sidlovszki Dominik |
+| **Szakértő:**  |  A szakértő az észrevételeket elemzi és megoldást javasol. | - |
+|**Projektvezető:**| A projekt ellenőrzése és felügyelése | - |
+
+### 2.2 Tesztadatok
+A teszt végrehajtásához szükséges rekordok (tesztadatok) száma: ---
+A tesztadatok elkészítéséért és feltöltéséért felelős személy: ---
+
+A tesztadatoknak az alábbi követelményeknek kell megfelelniük:
+- Az adatbázisba felvitt adatoknak csakis az UTF-8 kódtáblában található karaktereket szabad tartalmaznia.
