@@ -76,3 +76,8 @@ A weblap működése során a játékos tud szabadon illete bejelentkezve játsz
 
 - Backend: A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A kliensekkel JSON objektumokkal kommunikál.
 - Frontend: Az alkalmazás HTML-ben, CSS-ben és JavaScript-ben készül.
+
+## 9. Adatbázis terv
+
+- User adatait tároló tábla
+- User ponszámait táróló tábla
