@@ -49,8 +49,10 @@ Fontosabb képernyők:
 ![](./Img/tetris.png)
 
 -részlet a "Snake" játékból
+![](./Img/snake.png)
 
 -részlet a "Breakout" játékból
+![](./Img/Breakout.png)
 
 ## 9. Forgatókönyvek
 
