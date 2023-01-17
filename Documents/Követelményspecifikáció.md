@@ -73,3 +73,18 @@ Az Oldal használatához a felhasználói oldalon szükséges – fent meghatár
 ### Egyéb rendelkezések
 
 Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos jogszabályok – különösen, de nem kizárólagosan a Polgári Törvénykönyvről szóló 2013. évi V. törvény, az Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679. Rendelete a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről, az információs önrendelkezési jogról és az információ szabadságról szóló 2011. évi CXII. törvény, a szerzői jogról szóló 1999. évi LXXVI. törvény, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény – rendelkezései az irányadóak.
+
+### Követelménylista 
+
+|   Modul   | ID |  Név   |  Verzió  |
+|-----------|----|--------|----------|
+|Jogosultság| K1 | Bejelentkezés|1.0|
+|Jogosultság| K2 | Regisztráció|1.0|
+|Jogosultság| K3 | Jogosultsági szintek|1.0|
+|Modifikáció| K4 | Elfelejtett felhasználónév/jelszó|1.0|
+|Felület| K5 | Scoreboard|1.0|
+|Felület| K6 | Játék|1.0|
+|Felület| K7 | Kontakt|1.0|
+|Felület| K8 | User felület|1.0|
+|Adatbázis| K9 | Adatbázis rendszer|1.0|
+|Szerver| K10 | Szerver rendszer|1.0|
