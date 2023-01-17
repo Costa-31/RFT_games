@@ -346,3 +346,116 @@
                 return score;
             }
         }
+
+        function drawStartScreen() {
+            g.font = mainFont;
+
+            fillRect(titleRect, titlebgColor);
+            fillRect(clickRect, titlebgColor);
+
+            g.fillStyle = textColor;
+            g.fillText('Tetris', titleX, titleY);
+
+            g.font = smallFont;
+            g.fillText('press space to start', clickX, clickY);
+        }
+
+        function fillRect(r, color) {
+            g.fillStyle = color;
+            g.fillRect(r.x, r.y, r.w, r.h);
+        }
+
+        function drawRect(r, color) {
+            g.strokeStyle = color;
+            g.strokeRect(r.x, r.y, r.w, r.h);
+        }
+
+        function drawSquare(colorIndex, r, c) {
+            var bs = blockSize;
+            g.fillStyle = colors[colorIndex];
+            g.fillRect(leftMargin + c * bs, topMargin + r * bs, bs, bs);
+
+            g.lineWidth = smallStroke;
+            g.strokeStyle = squareBorder;
+            g.strokeRect(leftMargin + c * bs, topMargin + r * bs, bs, bs);
+        }
+
+        function drawUI() {
+
+            // background
+            fillRect(outerRect, bgColor);
+            fillRect(gridRect, gridColor);
+
+            // the blocks dropped in the grid
+            for (var r = 0; r < nRows; r++) {
+                for (var c = 0; c < nCols; c++) {
+                    var idx = grid[r][c];
+                    if (idx > EMPTY)
+                        drawSquare(idx, r, c);
+                }
+            }
+
+            // the borders of grid and preview panel
+            g.lineWidth = largeStroke;
+            drawRect(gridRect, gridBorderColor);
+            drawRect(previewRect, gridBorderColor);
+            drawRect(outerRect, gridBorderColor);
+
+            // scoreboard
+            g.fillStyle = textColor;
+            g.font = smallFont;
+            g.fillText('highscore    ' + scoreboard.getTopscore(), scoreX, scoreY);
+            g.fillText('level      ' + scoreboard.getLevel(), scoreX, scoreY + 30);
+            g.fillText('lines      ' + scoreboard.getLines(), scoreX, scoreY + 60);
+            g.fillText('score      ' + scoreboard.getScore(), scoreX, scoreY + 90);
+
+            // preview
+            var minX = 5, minY = 5, maxX = 0, maxY = 0;
+            nextShape.pos.forEach(function (p) {
+                minX = Math.min(minX, p[0]);
+                minY = Math.min(minY, p[1]);
+                maxX = Math.max(maxX, p[0]);
+                maxY = Math.max(maxY, p[1]);
+            });
+            var cx = previewCenterX - ((minX + maxX + 1) / 2.0 * blockSize);
+            var cy = previewCenterY - ((minY + maxY + 1) / 2.0 * blockSize);
+
+            g.translate(cx, cy);
+            nextShape.shape.forEach(function (p) {
+                drawSquare(nextShape.ordinal, p[1], p[0]);
+            });
+            g.translate(-cx, -cy);
+        }
+
+        function drawFallingShape() {
+            var idx = fallingShape.ordinal;
+            fallingShape.pos.forEach(function (p) {
+                drawSquare(idx, fallingShapeRow + p[1], fallingShapeCol + p[0]);
+            });
+        }
+
+       function animate(lastFrameTime) {
+            var requestId = requestAnimationFrame(function () {
+                animate(lastFrameTime);
+            });
+                        
+            var time = new Date().getTime();
+            var delay = scoreboard.getSpeed();
+
+            if (lastFrameTime + delay < time) {
+
+                if (!scoreboard.isGameOver()) {
+
+                    if (canMove(fallingShape, down)) {
+                        move(down);
+                    } else {
+                        shapeHasLanded();
+                    }
+                    draw();
+                    lastFrameTime = time;
+
+                } else {
+                    cancelAnimationFrame(requestId);
+                }
+            }
+        }
