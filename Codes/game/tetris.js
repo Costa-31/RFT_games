@@ -53,3 +53,56 @@
 
         var grid = [];
         var scoreboard = new Scoreboard();
+
+        addEventListener('keydown', function (event) {
+            if (!keyDown) {
+                keyDown = true;
+
+                if (scoreboard.isGameOver())
+                    return;
+
+                switch (event.key) {
+
+                    case 'w':
+                    case 'ArrowUp':
+                        if (canRotate(fallingShape))
+                            rotate(fallingShape);
+                        break;
+
+                    case 'a':
+                    case 'ArrowLeft':
+                        if (canMove(fallingShape, left))
+                            move(left);
+                        break;
+
+                    case 'd':
+                    case 'ArrowRight':
+                        if (canMove(fallingShape, right))
+                            move(right);
+                        break;
+
+                    case 's':
+                    case 'ArrowDown':
+                        if (!fastDown) {
+                            fastDown = true;
+                            while (canMove(fallingShape, down)) {
+                                move(down);
+                                draw();
+                            }
+                            shapeHasLanded();
+                        }
+                }
+                draw();
+            }
+        });
+
+        addEventListener('keyup', function () {
+            if(event.code==='Space'){
+                startNewGame();
+            }
+        });
+
+        addEventListener('keyup', function () {
+            keyDown = false;
+            fastDown = false;
+        });
