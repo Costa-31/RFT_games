@@ -23,6 +23,10 @@ A mai világban a legtöbb embernek nincs elegendő ideje, hogy egy élvezhető,
 
 Ezért arra jutottunk, én és a munkatársaim, hogy egy ingyenes, alkalmi játékot szimuláló oldalt hozzunk létre, amely felkelti azon emberek érdeklődését akiket mindig is érdekeltek az internetes játékok.Ezért mi egyszerű játék megalkotására törekszünk, amelyek nem mellesleg ingyenesek, élvezhetőek és még kifinomultak is, ezenfelül pedig a legkevesebb úgynevezett "bug"-al rendelkezők.
 
+## 6. Igényelt üzleti folyamatok modellje
+
+Az oldalt azért hozzuk létre, hogy a Tetrist kedvelő emberek szabadidejükben tudjanak játszani egy egyszerű és könnyen kezelhető oldalon a játékkal. A könnyű kezelhetőségnek köszönhetően, percek alatt már a játék felülületén tudunk lenni.
+
 ## 8. Képernyő tervek
 
 Fontosabb képernyők:
