@@ -92,3 +92,28 @@ Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos
 ### Kapcsolat
 
 Az Oldal támogatását az Üzemeltető végzi munkanapokon, 8:00 és 16:00 között. Az Oldal működésével kapcsolatban a Felhasználó a RFT_Tetris@gmail.com e-mail címre küldheti kérdéseit, amelyre az Üzemeltető a fenti időszakban válaszol. Forduljon hozzánk teljes bizalommal.
+
+### Kifejtés 
+
+#### ID
+
+- K1  A felhasználó a "Bejelentkezés" gombbal be tud jelentkezni a megadott felhasználónév és jelszó párossal. Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, azt tudatja velünk a rendszer.
+
+- K2  A "Regisztráció" gombra kattintva a felhasználó megadhatja az oldal használatához szükséges adatokat: "Felhasználó" mezőbe egy egyedi felhasználónevet; "e-mail" mezőbe a saját érvényes e-mail címét; "Jelszó" mezőbe egy egyedi kulcsszót, amit harmadik személynek semmiféleképpen nem adhatunk ki.
+Ha bármelyik mező hiányzik, vagy hibásan van kitöltve, azt tudatja velünk a rendszer.
+
+- K3  Felhasználói-Rendszerhozzáférés, elmentésre kerül az elért legmagasabb pontszáma, látható más játékosok számára.
+
+- K4 Ha a felhasználó elfelejtette a felhasználónevét vagy jelszavát, akkor ezzel az opcióval egy Adminhoz tud fordulni e-mail címen keresztül.
+
+- K5 Egy lista a pontokról (legmagasabb pontszám).
+
+- K6 A felhasználónak lehetősége van a játékot elkezdeni a megveleő gombra kattintva.
+
+- K7 Ez egy információs felület, amin keresztül a felhasználók hozzáférhetnek az oldalt szerkeztő csapattagok nevéhez.
+
+- K8 Ez egy felület az user fiókkal rendelkező felhasználók számára. Tartalmazza az elért pontszámokat.
+
+- K9 Adatbázis kapcsolat megtervezése és létrehozása.
+
+- K10 Szerveroldal megtervezése, adatbázis - felhasználó közötti kommunikáció megvalósítása, autentikáció. 
