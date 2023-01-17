@@ -12,3 +12,16 @@
 
 - A program célja, hogy könnyen lehessen tájékozódni a felületen
 
+## 2. Projektterv
+
+### Projekt szerepkörök, felelősségek
+
+- szerepkörök
+	- junior fejlesztők: Ardó Balázs, Bodó Zoltán, Kázmér László, Sidlovszki Dominik
+- felelősségek
+	-junior fejlesztő: A projekt elkészítése
+
+### Projekt felelősségek
+
+- Webfelület: Bodó Zoltán
+- Játékok: Kázmér László, Sidlovszki Dominik
