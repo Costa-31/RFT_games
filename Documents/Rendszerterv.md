@@ -93,3 +93,7 @@ A user teszteket a fejlesztés végén végezzük el a funkciók kipróbálásá
 ## 12. Telepítési terv
 
 A rendszer beüzemelésekor ajánlott egy hozzá szakértő emberre bízni a beüzemelést mivel a szerver elindításához szükség van némi hozzáértéshez. Így elkerülve esetleges nem kívánatos hibák létre jöttét.
+
+## 13. Karbantartási terv
+
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket.
