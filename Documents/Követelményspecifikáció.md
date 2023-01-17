@@ -23,3 +23,13 @@ A projekt célja egy olyan weboldal létrehozása, ahol a retro élményeket leh
 ### Funkcionális követelmények 
 
 A felhasználót az oldal betöltése után, a "home" oldal fogajda majd, ahonnan tud navigálni kedve szerint. Van külön regisztrációs és "login" ablak, ami garantálja majd a játék során szerzett pont elmentését. Továbbá megtalálható maga a játék amely egy új oldalra navigálja a felhasználót, ahol elkezdheti a játékot. Ezeken kívül megtalálható két további ablak, amelyek a kontakt és a "scoreboard". A kontakt ablaknál a fejlesztőket találják míg a "scoreboard" ablaknál a legjobb eredményt kilistázva.
+
+### Fogalomtár 
+
+Free-to-use --> Ingyenesen használható
+
+Home --> A weboldal fő ablaka, amely elsőnek megjelenik a betöltést követően
+
+Login --> Bejelentkezés
+
+Scoreboard --> Ponttábla
