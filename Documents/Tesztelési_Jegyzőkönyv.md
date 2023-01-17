@@ -61,3 +61,23 @@ Ezen adatok többségét úgynevett "Lorem Ipsum" típusú, véletlenül generá
 A prototípus tesztelés (vagy másik nevén modultesztelés) célja a rendszer már működő moduljainak önálló tesztelése, a modulon belüli hibák azonosításának és kiküszöbölésének érdekében. 
 **Módszere:**
 A program adatbázisába valós adatok kerülnek betöltésre.
+
+### 3.3 Integrációs teszt
+Az integrációs teszt célja a rendszer más rendszerekhez történő illesztésének vizsgálata, a több rendszeren keresztül átívelő funkciók tesztelésének érdekében. Az adatmigrációs tesztelés az integrációs teszteléshez tartozik, ennek lényege, hogy a bevezetendő rendszerbe áttöltik azokat az adatokat, amelyekkel a rendszer dolgozni fog, és letesztelik a betöltött adatok, illetve az adatokat kezelő funkciók helyességét. 
+**Módszere:**
+A program adatbázisába valós adatok kerülnek betöltésre.
+
+### 3.4 Elfogadási teszt
+Az elfogadási teszt (angolul User Acceptance Test) célja a rendszer teljes funkcionalitásának vizsgálata a felhasználók szemszögéből
+**Módszere:**
+A teszt egy kontroll csoporttal zajlik, egy külső cégen keresztül.
+
+### 3.5 Terheléses teszt
+A terheléses teszt célja a tervezett kapacitások, valamint a rendelkezésre álló növekedési potenciál meghatározása.
+**Módszere:**
+A próba telepítést követően egy meghívott tesztközönséggel zajlik, szimulálva egy átlagos napi használatot.
+
+### 3.6 Biztonsági teszt (audit):
+Biztonsági tesztelésre akkor van szükség, ha a rendszer szenzitív (pl. személyes vagy pénzügyi) adatokat kezel, vagy szabadon elérhető az internetről. 
+**Módszere:**
+A tesztet egy megbízott külső cég végzi.
